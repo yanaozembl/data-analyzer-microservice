@@ -30,7 +30,7 @@ services:
       - '8081:8081'
 
   analyser:
-    image: 'yanaaziamblouskaya/data-analyser-microservice:latest'
+    image: 'yanaaziamblouskaya/data-analyzer-microservice:latest'
     networks:
       - app
     depends_on:
