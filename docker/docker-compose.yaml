@@ -71,7 +71,7 @@ services:
     ports:
       - '2181:2181'
     volumes:
-      - zookeeper-data:/var/lib/zookeeper/data // for storing the kafka queue
+      - zookeeper-data:/var/lib/zookeeper/data
 
   kafka:
     image: 'confluentinc/cp-kafka:latest'
